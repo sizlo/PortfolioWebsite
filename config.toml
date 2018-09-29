@@ -11,7 +11,7 @@ googleAnalytics = ""
   # Style options: default (pink), blue, green, pink, red, sea, violet, brown
   # Use custom.css for your custom styling
   style = "brown"
-  description = "Describe your website"
+  description = "A portfolio of woodworking projects from Tim Brier, a Manchester based woodworker."
   sidebarAbout = [
     "I am a creative illustrator and graphic designer with more than 10 years of experience.",
     "Originally from Toronto, currently based in London."
@@ -28,7 +28,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  email = "tim@timbrier.com"
 
   # Nav links in the side bar
   [[params.navlinks]]
@@ -37,11 +37,11 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
-  name = "About"
-  url = "about/"
+  name = "Testimonials"
+  url = "testimonials/"
 
   [[params.navlinks]]
-  name = "Get in touch"
+  name = "Contact"
   url = "contact/"
 
   [params.social]
