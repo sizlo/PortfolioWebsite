@@ -2118,3 +2118,10 @@ a.list-group-item.active > .badge,
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+.img-sidebar-logo {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.img-mobile-logo {
+  margin-right: 0;
+}
