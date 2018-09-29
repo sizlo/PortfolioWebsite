@@ -47,6 +47,6 @@ googleAnalytics = ""
 
   [params.social]
   email         = "tim@timbrier.com"
-  instagram     = "https://www.instagram.com/timbrier/"
-  etsy          = "https://www.etsy.com/uk/people/xoismshj?ref=hdr_user_menu"
-  phone         = "+447714028271"
+  instagram     = "timbrier"
+  etsy          = "xoismshj"
+  phone         = "07714028271"
