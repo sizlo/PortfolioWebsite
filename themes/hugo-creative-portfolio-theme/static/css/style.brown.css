@@ -2178,9 +2178,11 @@ a.list-group-item.active > .badge,
 .img-sidebar-logo {
   margin-left: 0;
   margin-bottom: 24px;
+  width: 200px;
 }
 .img-mobile-logo {
   float: right;
+  width: 200px;
 }
 .btn-menu {
   height: 118px;
