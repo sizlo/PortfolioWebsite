@@ -19,11 +19,6 @@
     <i class="fab fa-instagram"></i>
   </a>
   {{end}}
-  {{ with .Site.Params.social.email }}
-  <a href="mailto:{{ . }}" data-animate-hover="pulse" class="email">
-    <i class="fa fa-envelope"></i>
-  </a>
-  {{end}}
   {{ with .Site.Params.social.linkedin }}
   <a href="{{ . }}" data-animate-hover="pulse" class="external">
     <i class="fab fa-linkedin"></i>
@@ -47,6 +42,16 @@
   {{ with .Site.Params.social.etsy }}
   <a href="{{ . }}" data-animate-hover="pulse" class="external">
     <i class="fab fa-etsy"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.email }}
+  <a href="mailto:{{ . }}" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.phone }}
+  <a href="tel:{{ . }}" data-animate-hover="pulse" class="email">
+    <i class="fa fa-phone"></i>
   </a>
   {{end}}
 </p>
