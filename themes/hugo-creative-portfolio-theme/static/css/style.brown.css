@@ -610,6 +610,7 @@ p.social a {
 p.social a:hover {
   color: #a0892c;
   border-color: #a0892c;
+  text-decoration: none;
 }
 p.social a i {
   vertical-align: bottom;
