@@ -2123,5 +2123,9 @@ a.list-group-item.active > .badge,
   margin-bottom: 10px;
 }
 .img-mobile-logo {
-  margin-right: 0;
+  float: right;
+}
+.btn-menu {
+  height: 118px;
+  border-width: 4px;
 }
