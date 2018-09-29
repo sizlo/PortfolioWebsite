@@ -6,6 +6,7 @@
       <div class="content-column-content">
          <h1>{{ .Title }}</h1>
          {{ .Content }}
+         <img src="/{{.Params.image}}" />
          {{ template "_internal/disqus.html" . }}
       </div>
     </div>
