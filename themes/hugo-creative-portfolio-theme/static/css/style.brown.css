@@ -1601,7 +1601,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #e01557;
+  color: #a0892c;
   text-decoration: underline;
 }
 a:focus {
@@ -2120,7 +2120,7 @@ a.list-group-item.active > .badge,
 }
 .img-sidebar-logo {
   margin-left: 0;
-  margin-bottom: 10px;
+  margin-bottom: 24px;
 }
 .img-mobile-logo {
   float: right;
