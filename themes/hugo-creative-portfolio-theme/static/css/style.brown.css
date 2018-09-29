@@ -2182,3 +2182,6 @@ a.list-group-item.active > .badge,
   height: 118px;
   border-width: 4px;
 }
+.portfolio-content {
+  width: 100%;
+}
