@@ -1,4 +1,4 @@
-baseurl = "https://timbrier.com/"
+baseurl = "http://timbrier.com/"
 title = "Tim Brier"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-uk"
