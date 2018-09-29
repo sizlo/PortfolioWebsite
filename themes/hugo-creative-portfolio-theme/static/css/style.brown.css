@@ -615,6 +615,9 @@ p.social a i {
   line-height: 30px;
   display: inline;
 }
+p.social a span {
+  font-size: 13px;
+}
 p.social.social i.fa-instagram {
   margin-left: 8px;
   margin-right: 11px;
@@ -625,11 +628,11 @@ p.social.social i.fa-etsy {
 }
 p.social.social i.fa-envelope {
   margin-left: 7px;
-  margin-right: 11px;
+  margin-right: 10px;
 }
 p.social.social i.fa-phone {
   margin-left: 7px;
-  margin-right: 11px;
+  margin-right: 10px;
 }
 p.social.social--outline a {
   background: transparent;
@@ -670,6 +673,9 @@ p.social.social--big a {
   height: 60px;
   border-radius: 30px;
   line-height: 60px;
+  font-size: 25px;
+}
+p.social.social--big a span {
   font-size: 25px;
 }
 p.social.social--big a:hover {
