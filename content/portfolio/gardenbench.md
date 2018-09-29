@@ -7,4 +7,4 @@ weight = 0
 
 <!--more-->
 
-Made with redwoodand finished with paint.
+Made with redwood and finished with paint.
