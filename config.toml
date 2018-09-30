@@ -34,16 +34,20 @@ googleAnalytics = ""
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Home"
-  url = "portfolio/"
+  url = "/portfolio/"
   home = true
 
   [[params.navlinks]]
+  name = "Shop"
+  url = "https://www.etsy.com/uk/shop/xoismshj"
+
+  [[params.navlinks]]
   name = "Testimonials"
-  url = "testimonials/"
+  url = "/testimonials/"
 
   [[params.navlinks]]
   name = "Contact"
-  url = "contact/"
+  url = "/contact/"
 
   [params.social]
   email         = "tim@timbrier.com"

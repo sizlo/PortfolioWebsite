@@ -1,0 +1,13 @@
+<div class="small-navbar visible-xs">
+  <a href="{{ .Site.BaseURL }}"><img class="img-mobile-logo" src="/img/brand.png" alt="{{.Site.Title}}" /></a>
+  <ul class="mobile-navbar">
+    {{ $thisPage := .URL }}
+    {{ range .Site.Params.navlinks }}
+      {{ if eq $thisPage .url }}
+        <li><a class="active" href="{{ .url }}">{{ .name }}</a></li>
+      {{ else }}
+        <li><a href="{{ .url }}">{{ .name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>

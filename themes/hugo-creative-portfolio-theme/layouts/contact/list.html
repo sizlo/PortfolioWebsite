@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
-  {{ partial "mobile_nav_toggle.html" . }}
+  {{ partial "mobile_header.html" . }}
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1 class="page-header">{{ .Title }}</h1>
+         <h1 class="page-heading">{{ .Title }}</h1>
          {{ .Content }}
          {{ partial "social_buttons_in_contact.html" . }}
          {{ with .Site.Params.email }}

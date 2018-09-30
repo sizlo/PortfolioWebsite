@@ -1,5 +1,10 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column">
-    {{ partial "mobile_nav_toggle.html" . }}
+    {{ partial "mobile_header.html" . }}
+    <div class="mobile-about visible-xs">
+    {{ range .Site.Params.sidebarAbout }}
+        <p class="sidebar-p">{{ . | safeHTML }}</p>
+    {{ end }}
+    </div>
     <div class="grid">
         <div class="row">
           {{ range .Data.Pages }}

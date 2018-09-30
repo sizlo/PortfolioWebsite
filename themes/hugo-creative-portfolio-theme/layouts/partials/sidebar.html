@@ -1,15 +1,19 @@
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <a href="{{ .Site.BaseURL }}"><img class="img-sidebar-logo" src="/img/brand.png" alt="{{.Site.Title}}" /></a>
+    <ul class="sidebar-menu">
+      {{ $thisPage := .URL }}
+      {{ range .Site.Params.navlinks }}
+        {{ if eq $thisPage .url }}
+          <li class="active"><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ else }}
+          <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ end }}
+      {{ end }}
+    </ul>
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}
-    <ul class="sidebar-menu">
-      {{ $url := .Site.BaseURL }}
-      {{ range .Site.Params.navlinks }}
-        <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
-      {{ end }}
-    </ul>
     {{ partial "social_buttons_in_sidebar.html" . }}
   </div>
 </div>
