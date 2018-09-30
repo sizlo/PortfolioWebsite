@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "A portfolio of woodworking projects from Tim Brier, a woodworker based in Swinton, Manchester."
   sidebarAbout = [
     "I'm a hobbyist woodworker based in Manchester, UK. All the projects showcased here were made by hand in my garage.",
-    "You can find all of work that's currently for sale on my <a href=\"https://www.etsy.com/uk/shop/xoismshj\">etsy store</a>. I'm also be happy to take on comissions, get in touch using the links below.",
+    "You can find all of my work that's currently for sale on my <a href=\"https://www.etsy.com/uk/shop/xoismshj\">etsy store</a>. I'm also be happy to take on comissions, get in touch using the links below.",
     "Originally from Huddersfield, currently based in Swinton, Manchester."
   ]
   # Contact page
