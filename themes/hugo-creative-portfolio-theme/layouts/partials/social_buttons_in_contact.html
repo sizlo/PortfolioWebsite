@@ -1,79 +1,22 @@
 <div class="social--big--container">
-  {{ with .Site.Params.social.facebook }}
-  <p class="social social--big">
-    <a href="{{ . }}" class="facebook">
-      <i class="fab fa-facebook"></i><span>{{ . }}</span>
-    </a>
-  </p>
-  {{end}}
-  {{ with .Site.Params.social.googleplus }}
-  <p class="social social--big">
-    <a href="{{ . }}" class="gplus">
-      <i class="fab fa-google-plus"></i><span>{{ . }}</span>
-    </a>
-  </p>
-  {{end}}
-  {{ with .Site.Params.social.twitter }}
-  <p class="social social--big">
-    <a href="{{ . }}" class="twitter">
-      <i class="fab fa-twitter"></i><span>{{ . }}</span>
-    </a>
-  </p>
-  {{end}}
   {{ with .Site.Params.social.instagram }}
-  <p class="social social--big">
-    <a href="https://www.instagram.com/{{ . }}" title="" class="instagram">
-      <i class="fab fa-instagram"></i><span>{{ . }}</span>
+    <a class="social-big" href="https://www.instagram.com/{{ . }}" title="" class="instagram">
+      <div class="social-big instagram">{{ . }}</div>
     </a>
-  </p>
-  {{end}}
-  {{ with .Site.Params.social.linkedin }}
-  <p class="social social--big">
-    <a href="{{ . }}">
-      <i class="fab fa-linkedin"></i><span>{{ . }}</span>
-    </a>
-  </p>
-  {{end}}
-  {{ with .Site.Params.social.stackoverflow }}
-  <p class="social social--big">
-    <a href="{{ . }}">
-      <i class="fab fa-stack-overflow"></i><span>{{ . }}</span>
-    </a>
-  </p>
-  {{end}}
-  {{ with .Site.Params.social.github }}
-  <p class="social social--big">
-    <a href="{{ . }}">
-      <i class="fab fa-github"></i><span>{{ . }}</span>
-    </a>
-  </p>
-  {{end}}
-  {{ with .Site.Params.social.youtube }}
-  <p class="social social--big">
-    <a href="{{ . }}">
-      <i class="fab fa-youtube"></i><span>{{ . }}</span>
-    </a>
-  </p>
   {{end}}
   {{ with .Site.Params.social.etsy }}
-  <p class="social social--big">
-    <a href="https://www.etsy.com/uk/shop/{{ . }}" data-animate-hover="pulse" class="external">
-      <i class="fab fa-etsy"></i><span>{{ . }}</span>
+    <a class="social-big" href="https://www.etsy.com/uk/shop/{{ . }}" data-animate-hover="pulse" class="external">
+      <div class="social-big etsy">{{ . }}</div>
     </a>
-  </p>
   {{end}}
   {{ with .Site.Params.social.email }}
-  <p class="social social--big">
-    <a href="mailto:{{ . }}" class="email">
-      <i class="fa fa-envelope"></i><span>{{ . }}</span>
+    <a class="social-big" href="mailto:{{ . }}" class="email">
+      <div class="social-big email">{{ . }}</div>
     </a>
-  </p>
   {{end}}
   {{ with .Site.Params.social.phone }}
-  <p class="social social--big">
-    <a href="tel:{{ . }}" data-animate-hover="pulse" class="email">
-      <i class="fa fa-phone"></i><span>{{ . }}</span>
+    <a class="social-big" href="tel:{{ . }}" data-animate-hover="pulse" class="email">
+      <div class="social-big phone">{{ . }}</div>
     </a>
-  </p>
   {{end}}
 </div>
