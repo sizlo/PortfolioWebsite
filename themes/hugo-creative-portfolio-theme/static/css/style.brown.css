@@ -2329,6 +2329,7 @@ a.list-group-item.active > .badge,
 .mobile-navbar li {
     float: left;
     border-right: 1px solid #f4f4f4;
+    text-decoration: none;
 }
 .mobile-navbar li a {
     display: block;
