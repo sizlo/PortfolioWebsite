@@ -2,7 +2,6 @@
 draft = false
 image = "img/portfolio/spicerack.jpg"
 title = "Spice Rack"
-weight = 0
 +++
 
 <!--more-->

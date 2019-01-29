@@ -2,7 +2,7 @@
 draft = false
 image = "img/portfolio/toyplane.jpg"
 title = "Toy Plane"
-weight = 1
+weight = 2
 +++
 
 <!--more-->

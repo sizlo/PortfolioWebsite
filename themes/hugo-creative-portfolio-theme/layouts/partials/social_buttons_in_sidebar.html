@@ -1,22 +1,30 @@
 <div class="social--container">
-    {{ with .Site.Params.social.instagram }}
+  {{ with .Site.Params.social.instagram }}
     <a class="social-small" href="https://www.instagram.com/{{ . }}" title="" class="instagram">
-      <div class="social-small instagram">{{ . }}</div>
+      <div class=social-small>
+        <span class="social-small--icon fab fa-instagram fa-fw"></span>{{ . }}
+      </div>
     </a>
   {{end}}
   {{ with .Site.Params.social.etsy }}
     <a class="social-small" href="https://www.etsy.com/uk/shop/{{ . }}" data-animate-hover="pulse" class="external">
-      <div class="social-small etsy">{{ . }}</div>
+      <div class=social-small>
+        <span class="social-small--icon fab fa-etsy fa-fw"></span>{{ . }}
+      </div>
     </a>
   {{end}}
   {{ with .Site.Params.social.email }}
     <a class="social-small" href="mailto:{{ . }}" class="email">
-      <div class="social-small email">{{ . }}</div>
+      <div class=social-small>
+        <span class="social-small--icon fa fa-envelope fa-fw"></span>{{ . }}
+      </div>
     </a>
   {{end}}
   {{ with .Site.Params.social.phone }}
     <a class="social-small" href="tel:{{ . }}" data-animate-hover="pulse" class="email">
-      <div class="social-small phone">{{ . }}</div>
+      <div class=social-small>
+        <span class="social-small--icon fa fa-phone fa-fw"></span>{{ . }}
+      </div>
     </a>
   {{end}}
 </div>

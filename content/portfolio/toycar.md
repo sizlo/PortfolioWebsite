@@ -2,7 +2,6 @@
 draft = false
 image = "img/portfolio/toycar.jpg"
 title = "Toy car"
-weight = 0
 +++
 
 <!--more-->

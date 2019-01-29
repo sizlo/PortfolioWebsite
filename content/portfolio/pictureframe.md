@@ -2,7 +2,7 @@
 draft = false
 image = "img/portfolio/pictureframe.jpg"
 title = "Picture Frame"
-weight = 2
+weight = 3
 +++
 
 <!--more-->

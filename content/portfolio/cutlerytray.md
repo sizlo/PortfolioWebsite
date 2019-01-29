@@ -2,7 +2,7 @@
 draft = false
 image = "img/portfolio/cutlerytray.jpg"
 title = "Cutlery Tray"
-weight = 0
+weight = 3
 +++
 
 <!--more-->

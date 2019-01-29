@@ -2,7 +2,6 @@
 draft = false
 image = "img/portfolio/table.jpg"
 title = "Table"
-weight = 0
 +++
 
 <!--more-->
