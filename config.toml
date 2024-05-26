@@ -50,7 +50,7 @@ googleAnalytics = ""
   url = "/contact/"
 
   [params.social]
-  email         = "tim@timbrier.com"
+#  email         = "example@example.com"
   instagram     = "timbrier"
   etsy          = "xoismshj"
 #  phone         = "123456789"
