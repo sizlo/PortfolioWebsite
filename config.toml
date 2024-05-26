@@ -13,9 +13,9 @@ googleAnalytics = ""
   style = "brown"
   description = "A portfolio of woodworking and joinery projects from Tim Brier, a woodworker based in Swinton, Manchester. Hand made wooden gifts, toys and furniture using quality hardwood."
   sidebarAbout = [
-    "I'm a hobbyist woodworker based in Manchester, UK. All the projects showcased here were made by hand in my garage.",
+    "I'm a hobbyist woodworker based in Manchester, UK. All the projects showcased here were made by hand in my garden shed workshop.",
     "I'm happy to take on comissions, get in touch using the links below.",
-    "Originally from Huddersfield, currently based in Swinton, Manchester."
+    "Originally from Huddersfield, currently based in Urmston, Manchester."
   ]
 
   # Nav links in the side bar
