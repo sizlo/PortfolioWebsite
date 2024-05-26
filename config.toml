@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "A portfolio of woodworking and joinery projects from Tim Brier, a woodworker based in Swinton, Manchester. Hand made wooden gifts, toys and furniture using quality hardwood."
   sidebarAbout = [
     "I'm a hobbyist woodworker based in Manchester, UK. All the projects showcased here were made by hand in my garage.",
-    "You can find all of my work that's currently for sale on my <a href=\"https://www.etsy.com/uk/shop/xoismshj\">etsy store</a>. I'm also happy to take on comissions, get in touch using the links below.",
+    "I'm happy to take on comissions, get in touch using the links below.",
     "Originally from Huddersfield, currently based in Swinton, Manchester."
   ]
 
@@ -25,15 +25,11 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
-  name = "Shop"
-  url = "https://www.etsy.com/uk/shop/xoismshj"
-
-  [[params.navlinks]]
   name = "Testimonials"
   url = "/testimonials/"
 
   [params.social]
 #  email         = "example@example.com"
   instagram     = "timbrier"
-  etsy          = "xoismshj"
+#  etsy          = "example-shop-id"
 #  phone         = "123456789"
