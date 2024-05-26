@@ -24,10 +24,6 @@ googleAnalytics = ""
   url = "/"
   home = true
 
-  [[params.navlinks]]
-  name = "Testimonials"
-  url = "/testimonials/"
-
   [params.social]
 #  email         = "example@example.com"
   instagram     = "timbrier"
