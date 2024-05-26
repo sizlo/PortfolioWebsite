@@ -2,7 +2,7 @@
   <div class="sidebar-content">
     <a href="{{ .Site.BaseURL }}"><img class="img-sidebar-logo" src="/img/brand.png" alt="{{.Site.Title}}" /></a>
     <ul class="sidebar-menu">
-      {{ $thisPage := .URL }}
+      {{ $thisPage := .RelPermalink }}
       {{ range .Site.Params.navlinks }}
         {{ if eq $thisPage .url }}
           <li class="active"><a href="{{ .url }}">{{ .name }}</a></li>

@@ -1,7 +1,7 @@
 <div class="small-navbar visible-xs">
   <a href="{{ .Site.BaseURL }}"><img class="img-mobile-logo" src="/img/brand.png" alt="{{.Site.Title}}" /></a>
   <ul class="mobile-navbar">
-    {{ $thisPage := .URL }}
+    {{ $thisPage := .RelPermalink }}
     {{ range .Site.Params.navlinks }}
       {{ if eq $thisPage .url }}
         <li><a class="active" href="{{ .url }}">{{ .name }}</a></li>
